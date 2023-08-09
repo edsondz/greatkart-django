@@ -1,0 +1,36 @@
+- Criando e ativando o ambiente virtual windows - vcode
+python -m venv env
+.\env\scripts\activate - ativar
+deactivate - desativar
+
+- Verificar instalações
+pip freeze
+
+- Instalações
+pip install django==3.1
+
+
+- Criando projeto
+django-admin startproject greatkart .
+
+- Iniciando o projeto
+python manage.py runserver
+
+-- criando templates
+python manage.py collectstatic
+
+-- criando apps
+python manage.py startapp category
+
+-- Model
+pip install Pillow
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+
+
+
+
+
+
+
